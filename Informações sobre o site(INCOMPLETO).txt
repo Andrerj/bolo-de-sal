@@ -1,0 +1,168 @@
+OBS: Se ficar ruim as medidas ajeita ae!(no FireWorks tá bão)
+
+
+Largura: 1366px
+
+Fontes Utilizadas: 8BIT WONDER - Visitor TT1 BRK - Fixedsys - Myriad Pro(Rodapé)
+
+============================================================
+
+MENU
+
+Altura: 80px
+Cor: #222222 ou RGB(34,34,34)
+
+Logo Bolo de Sal:
+Altura: 55px
+Largura: 92px 
+X:20 Y:13
+
+Logo Bolo de Sal Texto:  
+Altura: 37px
+Largura: 200px 
+X:130 Y:25
+
+Fonte: 8BIT WONDER
+Tamanho: 16px
+Cor: #FFF
+Cor selecionado: #222222
+
+Inicio do Menu: X: 610 
+
+Caixa de seleção da opção do Menu:
+
+Altura: 82px
+Largura: 150px
+
+OBS: O menu contém sombra na parte inferior e será fixo.
+
+=========================================================
+
+REDES SOCIAIS
+
+Altura: 45px
+Largura: 45px
+
+=========================================================
+
+ÁREA 1
+
+Altura: 800px
+Cor Background: #FF7373
+
+Banner:
+
+Altura: 600px
+Centralizado sobrará 100px em cima e embaixo
+
+Marcadores do Banner:
+
+Altura: 25px
+Largura: 341px(Externos) e 342px(Centrais)
+Cor 1:#FF4D4D
+Cor 2:#FFA64D
+Cor 3:#00BFFF
+Cor 4:#00FF80
+
+OBS: O marcador selecionado terá as cores acima, enquanto os outros apresentaram uma cor "mais
+apagada"
+
+==========================================================
+
+ÁREA 2(PROJETOS)
+
+Altura: 750px
+Cor Background: #111111
+
+
+Título(Projetos): 8BIT WONDER - 30
+X: 20
+
+Título(Semestre): 8BIT WONDER - 22
+Primeiro: X:250
+Segundo: X:887
+
+Container da Img do Projeto:
+
+Altura: 260px
+Largura: 350px
+Primeiro: X:183
+Segundo: X:820 
+
+Img do Projeto:
+
+Altura: 225px
+Largura: 350px
+
+Texto embaixo do projeto:
+
+Visitor TT1 BRK - 22
+
+===========================================================
+
+ÁREA 3(SOBRE)
+
+Altura: 2000px
+Cor Background: #FFB973
+
+Título(Sobre): 8BIT WONDER - 30
+
+IMG: 
+
+Altura: 575px
+
+Logo Bolo de Sal:
+Altura: 85px
+Largura: 143px 
+X:31
+
+Logo Bolo de Sal Texto:
+Altura: 57px
+Largura: 310px 
+X:202
+
+Fundo Logo:
+
+Altura: 110px
+Largura: 530px
+
+Fundo Texto:
+
+Altura: 450px
+Largura: 1116px
+X:250
+
+Fundo Integrantes:
+
+Altura: 400px
+Cor Background: #111111
+
+Fundo Título Integrantes:
+
+Altura: 62px
+Largura: 300px
+Cor Background: #DDDDDD
+
+Título Integrantes: 8BIT WONDER - 22
+
+Marcadores embaixo do Título:
+
+Altura: 10px
+Largura: 75px
+
+Integrantes:
+
+Altura: 273px
+Largura: 200px
+X:100 X:416 X:749 X:1066
+
+Nome: Fixedsys - 24
+
+===========================================================
+
+ÁREA 4(CONTATO)
+
+Altura: 800px
+Cor Background: #555555
+
+
