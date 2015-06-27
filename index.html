@@ -1,112 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Vamos ver se agora vai...</title>
-	<link rel="stylesheet" type="text/css" href="CSS/style.css" />
-	<link rel="stylesheet" href="CSS/bjqs.css">
-	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-	<script src="SCRIPT/bjqs-1.3.min.js"></script>
-	<script src="SCRIPT/script.js"> </script>
-</head>
-<body>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Vamos ver se agora vai...</title>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css" />
+		<link rel="stylesheet" href="CSS/bjqs.css">
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script src="SCRIPT/bjqs-1.3.min.js"></script>
+		<script src="SCRIPT/script.js"> </script>
+	</head>
+	<body>
 
-	<header>
-		<section id="header">
-			<div class="logos">
-				<a href="#area1" class="ancora logo"><img src="IMG/logo.png" alt="Logo"></a>
-				<a href="#area1" class="ancora logo"><img src="IMG/logoTexto.png" alt="Logo Texto"></a>
-			</div>
-
-			<nav>
-				<ul id="nav">
-					<li><a href="#area1" class="ancora">Home</a></li>
-					<li><a href="#projetos" class="ancora">Projetos</a></li>
-					<li><a href="#sobre" class="ancora">Sobre</a></li>
-					<li><a href="#projetos" class="ancora">Contato</a></li>
-				</ul>
-			</nav>	
-		</section>	
-	</header>
-
-	<div id="area1" class="destinoAncora">
-		<div class="fundoLaranja"></div>
-
-		<!-- SLIDER -->
-		<div id="container">
-			<div id="banner-slide">
-
-		        <!-- ESTRUTURA DO SLIDER CONFORME PLUGIN -->
-		        <ul class="bjqs">
-		        	<li><img src="IMG/teste.jpg" title="Automatically generated caption"></li>
-		         	<li><img src="IMG/teste2.jpg" title="Automatically generated caption"></li>
-		          	<li><img src="IMG/teste3.jpg" title="Automatically generated caption"></li>
-		          	<li><img src="IMG/teste4.jpg" title="Automatically generated caption"></li>
-		        </ul>
-		        <!-- FIM DA ESTRUTURA DO SLIDER -->
-
-		    </div>
-		</div>
-
-		<!-- FIM SLIDER -->
-
-		<div class="fundoLaranja baixo"></div>
-
-		<div id="projetos" class="destinoAncora">
-		
-			<section>
-				<h1 class="titulo">Projetos</h1>
-
-				<article class="projetos">
-
-					<h1>1° SEMESTRE</h1>
-					<img src="IMG/projeto1.jpg" alt="Projeto 1">
-					<p class="descricao">PROJETO: SITE ESTÁTICO</p>
-					<p class="descricao">NOME: ALPHA SUPERMARKET</p>
-
-				</article>
-
-				<article class="projetos">
-
-					<h1>2° SEMESTRE</h1>
-					<img src="IMG/projeto2.jpg" alt="Projeto 2">
-					<p class="descricao">PROJETO: ÁREA ADMINISTRATIVA</p>
-					<p class="descricao">NOME: DELTA SPORTS</p>
-					
-				</article>
-			</section>
-
-		</div>
-
-		<div id="sobre" class="destinoAncora">
-			<section>
-				<h1 class="titulo">SOBRE</h1>
-
-				<img id="foto" src="IMG/foto.jpg" alt="Integrantes">
-				
+		<header>
+			<section id="header">
 				<div class="logos">
 					<a href="#area1" class="ancora logo"><img src="IMG/logo.png" alt="Logo"></a>
 					<a href="#area1" class="ancora logo"><img src="IMG/logoTexto.png" alt="Logo Texto"></a>
 				</div>
 
-				<div id="historia">
-					<!--<img id="xadres1" src="IMG/barraRodape.png" alt="Xadres">-->
-					<p class="paragrafo">A Bolo de Sal Studio é uma agência fictícia formada pelos alunos <span class="andre">André Rodrigues</span>, <span class="bruno">Bruno Paschoali</span>, <span class="jacques">Jacques Mouette</span> e <span class="thiago">Thiago Ferreira</span> do curso de Sistemas para Internet do Centro Universitário Senac.</p>
+				<nav>
+					<ul id="nav">
+						<li><a href="#area1" class="ancora">Home</a></li>
+						<li><a href="#projetos" class="ancora">Projetos</a></li>
+						<li><a href="#sobre" class="ancora">Sobre</a></li>
+						<li><a href="#projetos" class="ancora">Contato</a></li>
+					</ul>
+				</nav>	
+			</section>	
+		</header>
 
-					<p class="paragrafo">Seu surgimento ocorreu no 1° semestre de 2014 (e também nosso 1° semestre de curso) onde os grupos foram desafiados a criar uma agência para posteriormente criar a identidade visual do PI(Projeto Integrador) do semestre corrente.</p>
+		<div id="area1" class="destinoAncora">
+			<div class="fundoLaranja"></div>
 
-					<p class="paragrafo">O nome Bolo de Sal surgiu após uma brincadeira (e por ninguém ter criatividade para um nome melhor) com o nome do mercado Pão de Açúcar.</p>
+			<!-- SLIDER -->
+			<div id="container">
+				<div id="banner-slide">
 
-					<p class="paragrafo">OBS: Qualquer crítica sugestiva ou depreciativa em relação ao nome, dirigir-se ao Sr. <span class="bruno">Bruno Paschoali</span>, aquele de sinalzinho de vitória na foto.</p>
+			        <!-- ESTRUTURA DO SLIDER CONFORME PLUGIN -->
+			        <ul class="bjqs">
+			        	<li><img src="IMG/teste.jpg" title="Automatically generated caption"></li>
+			         	<li><img src="IMG/teste2.jpg" title="Automatically generated caption"></li>
+			          	<li><img src="IMG/teste3.jpg" title="Automatically generated caption"></li>
+			          	<li><img src="IMG/teste4.jpg" title="Automatically generated caption"></li>
+			        </ul>
+			        <!-- FIM DA ESTRUTURA DO SLIDER -->
+
+			    </div>
+			</div>
+
+			<!-- FIM SLIDER -->
+
+			<div class="fundoLaranja baixo"></div>
+
+			<div id="projetos" class="destinoAncora">
+			
+				<section>
+					<h1 class="titulo">Projetos</h1>
+
+					<article class="projetos">
+
+						<h1>1° SEMESTRE</h1>
+						<img src="IMG/projeto1.jpg" alt="Projeto 1">
+						<p class="descricao">PROJETO: SITE ESTÁTICO</p>
+						<p class="descricao">NOME: ALPHA SUPERMARKET</p>
+
+					</article>
+
+					<article class="projetos">
+
+						<h1>2° SEMESTRE</h1>
+						<img src="IMG/projeto2.jpg" alt="Projeto 2">
+						<p class="descricao">PROJETO: ÁREA ADMINISTRATIVA</p>
+						<p class="descricao">NOME: DELTA SPORTS</p>
+						
+					</article>
+				</section>
+
+			</div>
+
+			<div id="sobre" class="destinoAncora">
+				<section>
+					<h1 class="titulo">SOBRE</h1>
+
+					<img id="foto" src="IMG/foto.jpg" alt="Integrantes">
+					
+					<div class="logos">
+						<a href="#area1" class="ancora logo"><img src="IMG/logo.png" alt="Logo"></a>
+						<a href="#area1" class="ancora logo"><img src="IMG/logoTexto.png" alt="Logo Texto"></a>
+					</div>
+
+					<div id="historia">
+						<img id="xadres1" src="IMG/xadrezCima.fw.png" alt="Xadres">
+						<p class="paragrafo">A Bolo de Sal Studio é uma agência fictícia formada pelos alunos <span class="andre">André Rodrigues</span>, <span class="bruno">Bruno Paschoali</span>, <span class="jacques">Jacques Mouette</span> e <span class="thiago">Thiago Ferreira</span> do curso de Sistemas para Internet do Centro Universitário Senac.</p>
+
+						<p class="paragrafo">Seu surgimento ocorreu no 1° semestre de 2014 (e também nosso 1° semestre de curso) onde os grupos foram desafiados a criar uma agência para posteriormente criar a identidade visual do PI(Projeto Integrador) do semestre corrente.</p>
+
+						<p class="paragrafo">O nome Bolo de Sal surgiu após uma brincadeira (e por ninguém ter criatividade para um nome melhor) com o nome do mercado Pão de Açúcar.</p>
+
+						<p class="paragrafo">OBS: Qualquer crítica sugestiva ou depreciativa em relação ao nome, dirigir-se ao Sr. <span class="bruno">Bruno Paschoali</span>, aquele de sinalzinho de vitória na foto.</p>
 
 
-					<!--<img id="xadres2" src="IMG/barraRodape.png" alt="Xadres">-->
-				</div>
+						<img id="xadres2" src="IMG/xadrezBaixo.fw.png" alt="Xadres">
+					</div>
 
-			</section>
-		</div>
-	</div>
+					<div id="integrantes">
+						<div id="titulo">
+							<h1 class="titulo"> INTEGRANTES</h1>							
+						</div>
+						<ul>
+							<li class="vermelho"></li>
+							<li class="laranja"></li>
+							<li class="azul"></li>
+							<li class="verde"></li>
+						</ul>
+
+						<div id="wrapperIntegrantes">
 	
-</body>
+							<div class="wrapperIntegrantes">
+								<div class="integrantes vermelho">
+									<img src="IMG/andre.jpg" alt="André">
+									<p>André</p>
+								</div>
+							</div>							
+
+							<div class="wrapperIntegrantes">
+								<div class="integrantes laranja">
+									<img src="IMG/bruno.jpg" alt="Bruno">
+									<p>Bruno</p>
+								</div>
+							</div>							
+
+							<div class="wrapperIntegrantes">
+								<div class="integrantes azul">
+									<img src="IMG/jacques.jpg" alt="Jacques">
+									<p>Jacques</p>
+								</div>
+							</div>							
+
+							<div class="wrapperIntegrantes">
+								<div class="integrantes verde">
+									<img src="IMG/thiago.jpg" alt="Thiago">
+									<p>Thiago</p>
+								</div>
+							</div>
+														
+						</div>					
+						
+					</div>
+
+				</section>
+			</div>
+		</div>
+		
+	</body>
 </html>

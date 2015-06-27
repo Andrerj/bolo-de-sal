@@ -319,7 +319,7 @@ ol li:nth-child(4) a{
 /* SOBRE */
 
 #sobre{
-	height: 2000px;
+	min-height: 1910px;
 	width: 100%;
 	background-image: url("../IMG/fundo3.jpg");
 	position: relative;
@@ -359,15 +359,33 @@ ol li:nth-child(4) a{
 }
 
 #historia{
-	height: 450px;
+	min-height: 450px;
 	width: 1116px;
 	background-color: #080808;
 	margin-top: 70px;
+	margin-bottom: 100px;
 	float: right;
+	position: relative;
+	overflow: hidden;
+	clear: both;
 }
 
-.paragrafo:nth-child(1){
+#historia img:first-of-type{
+	position: absolute;
+	top: 0px;
+}
+
+#historia img:last-of-type{
+	position: absolute;
+	bottom: 0px;
+}
+
+#historia p:first-of-type{
 	margin-top: 70px;
+}
+
+#historia p:last-of-type{
+	margin-bottom: 70px;
 }
 
 .paragrafo{
@@ -375,8 +393,10 @@ ol li:nth-child(4) a{
 	font-size: 22px;
 	color: white;
 	margin-left: 70px;
+	margin-right: 70px;
 	margin-top: 20px;
 	line-height: 26px;
+	text-align: justify;
 }
 
 .andre{
@@ -395,9 +415,76 @@ ol li:nth-child(4) a{
 	color: #00FF80;
 }
 
+#integrantes{
+	min-height: 400px;
+	background-image: url("../IMG/fundoIntegrantes.jpg");
+	clear: both;
+	position: relative;
+}
+
+#titulo{
+	width: 300px;
+	height: 62px;
+	background-color: #dddddd;
+}
+
+#integrantes div:first-of-type h1{
+	font-size: 22px;
+}
+
+#integrantes ul{
+	width: 300px;
+	height: 10px;
+}
+
+#integrantes ul li{
+	float: left;
+	list-style: none;
+	height: 10px;
+	width: 25%;
+}
+
+#wrapperIntegrantes{
+	width: 100%;
+	height: 273px;
+}
+
+.wrapperIntegrantes{
+	width: 25%;
+	min-height: 273px;
+	float: left;
+	margin-top: 55px;
+}
+
+.integrantes{
+	height: 273px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.integrantes img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin: 25px;
+}
+
+.integrantes p{
+	text-align: center;
+	font-family: Fixedsys;
+	font-size: 24px;
+	margin-top: 20px;
+}
+
 /* FIM SOBRE */
 
 /* 	ADAPTACAO PARA RESPONSIVIDADE */
+
+@media screen and (max-width: 1134px){
+	#historia{
+		width: 970px;
+	}
+}
 
 @media screen and (max-width: 990px) {
 
@@ -408,6 +495,10 @@ ol li:nth-child(4) a{
 	header section nav ul li a{
 		font-size: 14px;
 		width: 130px;
+	}
+
+	#historia{
+		width: 870px;
 	}
 }
 
@@ -421,6 +512,34 @@ ol li:nth-child(4) a{
 
 	#menu{
 		display: block !important;
+	}
+
+	#historia{
+		width: 730px;
+	}
+
+	#sobre{
+		height: 2170px;
+	}
+
+	#wrapperIntegrantes{
+		height: 656px;
+	}
+
+	.wrapperIntegrantes{
+		width: 50%;
+	}
+
+	.wrapperIntegrantes:nth-child(3){
+		clear: left;
+	}
+
+	.wrapperIntegrantes:nth-child(odd){
+		border-right: 2px solid white;
+	}
+
+	.wrapperIntegrantes:nth-child(even){
+		width: 49%;
 	}
 }
 
@@ -437,6 +556,33 @@ ol li:nth-child(4) a{
 
 	.projetos:nth-child(3){
 		margin-top: 50px;
+	}
+
+	#historia{
+		width: 590px;
+	}
+}
+
+@media screen and (max-width: 610px){
+	#historia{
+		width: 490px;
+	}
+
+	#historia p:first-of-type{
+		margin-top: 60px;
+	}
+
+	#historia p:last-of-type{
+		margin-bottom: 60px;
+	}
+
+	.paragrafo{
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+
+	#sobre{
+		height: 2292px;
 	}
 }
 
@@ -455,6 +601,43 @@ ol li:nth-child(4) a{
 		height: 52px;
 		width: 279px;
 	}
+
+	#historia{
+		width: 350px;
+	}
+
+	#historia p:first-of-type{
+		margin-top: 50px;
+	}
+
+	#historia p:last-of-type{
+		margin-bottom: 50px;
+	}
+
+	.paragrafo{
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	#sobre{
+		height: 3186px;
+	}
+
+	#wrapperIntegrantes{
+		height: 1312px;
+	}
+
+	.wrapperIntegrantes{
+		width: 100% !important;
+	}
+
+	.wrapperIntegrantes:nth-child(even){
+		clear: left;
+	}
+
+	.wrapperIntegrantes:nth-child(odd){
+		border: none;
+	}
 }
 
 @media screen and (max-width: 460px){
@@ -472,6 +655,10 @@ ol li:nth-child(4) a{
 		height: 47px;
 		width: 251px;
 	}
+
+	#sobre{
+		height: 3155px;
+	}
 }
 
 @media screen and (max-width: 420px){
@@ -488,6 +675,10 @@ ol li:nth-child(4) a{
 	#sobre .logos a:nth-child(2) img{
 		height: 42px;
 		width: 225px;
+	}
+
+	#sobre{
+		height: 3130px;
 	}
 }
 
@@ -543,6 +734,27 @@ ol li:nth-child(4) a{
 	#sobre .logos a:nth-child(2) img{
 		height: 36px;
 		width: 194px;
+	}
+
+	#historia{
+		width: 306px;
+	}
+
+	#historia p:first-of-type{
+		margin-top: 40px;
+	}
+
+	#historia p:last-of-type{
+		margin-bottom: 40px;
+	}
+
+	.paragrafo{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	#sobre{
+		height: 3083px;
 	}
 }
 

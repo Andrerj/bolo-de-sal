@@ -109,7 +109,7 @@ jQuery(document).ready(function($) {
 	$("#nav").addClass("js").before('<div id="menu">&#9776;</div>');
 	$("#header").after ("<div id='navBottom' class='none'></div>");
 
-	if(window.innerWidth < 890){
+	if(window.innerWidth <= 890){
 
 		ul = $("#nav").detach();
 		$(navBottom).append (ul);
@@ -131,6 +131,8 @@ jQuery(document).ready(function($) {
 	/* FIM MENU RESPONSIVO*/
 
 	/* EFEITO DE DESLIZE SUAVE NO SCROLL DAS ANCORAS */
+
+	mudarSelecao();
 
 	$('.ancora').click (function(){
     	var alvo = $(this).attr('href').split('#').pop();
@@ -164,7 +166,7 @@ $(window).resize(function(){
 
 	/* MENU RESPONSIVO */
 
-	if(window.innerWidth < 890){
+	if(window.innerWidth <= 890){
 
 		ul = $("#nav").detach();
 		$(navBottom).append (ul);
