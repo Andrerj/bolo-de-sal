@@ -157,7 +157,23 @@ jQuery(document).ready(function($) {
 
    	/* FIM DO EFEITO DE DESLIZE SUAVE NO SCROLL DAS ANCORAS */
 
-   	resizeFoto(newWidth);  
+   	resizeFoto(newWidth);
+
+	$(".nome").click (function() {
+		var has = $(this).siblings().hasClass ("visivel");
+
+		$(".nome").siblings().removeClass ("visivel", 400);
+		$(".nome").siblings().children().removeClass ("show");
+
+		if (!has){
+			
+			$(this).siblings().children().toggleClass ("show", 400);
+			$(this).siblings().toggleClass ("visivel", 400);			
+		}
+		
+	});
+	
+
 });
 
 $(window).resize(function(){
